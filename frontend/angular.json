@@ -127,7 +127,7 @@
       }
     }
   },
-  "defaultProject": "departments",
+  "defaultProject": "departments", 
   "cli": {
     "analytics": "b6c6dd7f-917c-4b3b-8229-406e5ba6e77b"
   }

@@ -18,6 +18,7 @@ export class SignupComponent implements OnInit {
     this.signupForm = this.createFormGroup();
   }
 
+  
   createFormGroup(): FormGroup {
     return new FormGroup({
       name: new FormControl("", [Validators.required, Validators.minLength(2)]),

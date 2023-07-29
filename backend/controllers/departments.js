@@ -1,5 +1,6 @@
 const { validationResult } = require('express-validator');
 
+
 const Department = require('../models/department');
 
 exports.fetchAll = async (req, res, next) => {

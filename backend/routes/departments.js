@@ -10,6 +10,7 @@ const router = express.Router();
 
 router.get('/', auth, departmentsController.fetchAll);
 
+
 router.post(
   '/',
   [

@@ -23,11 +23,15 @@ Note: For development purposes the host is localhost but this will need to be up
 7. \$ npm start
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tables in database created
 =======
 
 tables in database 
 >>>>>>> c4bc54f (first commit)
+=======
+Tables in database created
+>>>>>>> 2efee0a (initial commit)
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
@@ -35,11 +39,16 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ); 
 
 =======
 );
 >>>>>>> c4bc54f (first commit)
+=======
+); 
+
+>>>>>>> 2efee0a (initial commit)
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,

@@ -5,3 +5,4 @@ export interface Department {
   user: string;
   created: Date;
 }
+

@@ -14,6 +14,7 @@ import { Department } from "src/app/models/Department";
 import { AuthService } from "src/app/services/auth.service";
 import { DepartmentService } from "src/app/services/department.service";
 
+
 @Component({
   selector: "app-create-department",
   templateUrl: "./create-department.component.html",

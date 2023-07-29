@@ -26,6 +26,7 @@ export class DepartmentsComponent implements OnInit {
     this.departments$ = this.fetchAll();
     this.userId = this.authService.userId;
   }
+  
 
   fetchAll(): Observable<Department[]> {
     return this.departmentService.fetchAll();
