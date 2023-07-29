@@ -1,0 +1,17 @@
+mat-card {
+  margin-bottom: 1em;
+  font-size: 24px;
+  button {
+    float: right;
+  }
+  .department-title {
+    font-weight: bold;
+  }
+  .department-meta {
+    font-size: 16px;
+    font-style: italic;
+  }
+  .department-body {
+    margin-top: 1em;
+  }
+}

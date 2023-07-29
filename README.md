@@ -22,15 +22,24 @@ Note: For development purposes the host is localhost but this will need to be up
 6. \$ npm install
 7. \$ npm start
 
+<<<<<<< HEAD
 Tables in database created
+=======
+
+tables in database 
+>>>>>>> c4bc54f (first commit)
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ); 
 
+=======
+);
+>>>>>>> c4bc54f (first commit)
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,

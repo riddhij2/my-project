@@ -1,0 +1,38 @@
+<mat-toolbar color="accent">
+  <span>
+    <a routerLink="/">
+      <span>Home Page</span>
+    </a>
+  </span>
+  <span>
+    <a
+      *ngIf="isAuthenticated"
+      routerLinkActive="active-link"
+      routerLink="/departments"
+    >
+      <span>Department</span>
+    </a>
+    <a
+      *ngIf="!isAuthenticated"
+      routerLinkActive="active-link"
+      routerLink="/login"
+    >
+      <span>Login</span>
+    </a>
+    <a
+      *ngIf="isAuthenticated"
+      (click)="logout()"
+      routerLinkActive="active-link"
+      routerLink="/login"
+    >
+      <span>Logout</span>
+    </a>
+    <a
+      *ngIf="!isAuthenticated"
+      routerLinkActive="active-link"
+      routerLink="/signup"
+    >
+      <span>Signup</span>
+    </a>
+  </span>
+</mat-toolbar>

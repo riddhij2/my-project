@@ -1,0 +1,16 @@
+<app-create-department (create)="createDepartment()"></app-create-department>
+
+<mat-card *ngFor="let department of departments$ | async">
+  <button *ngIf="department.user === userId" mat-icon-button>
+    <mat-icon (click)="delete(department.id)" color="warn">delete</mat-icon>
+  </button>
+  <div class="department-title">
+    {{ department.title }}
+  </div>
+  <div class="department-meta">
+    {{ department.created }}
+  </div>
+  <div class="department-body">
+    {{ department.body }}
+  </div>
+</mat-card>
